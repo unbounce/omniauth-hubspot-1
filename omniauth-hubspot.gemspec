@@ -3,7 +3,6 @@ require File.expand_path('../lib/omniauth/hubspot/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.add_dependency 'omniauth'
-  gem.add_dependency 'oauth2'
   gem.add_dependency 'omniauth-oauth2'
 
   gem.authors       = ['Brian Norton']
@@ -20,4 +19,3 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = OmniAuth::HubSpot::VERSION
 end
-
